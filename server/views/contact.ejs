@@ -1,0 +1,42 @@
+<% include partials/header%> 
+<% include partials/main_nav%> 
+
+
+<div class="container">
+    <div class="row my-4">
+        <div class="col-lg-12">
+            <!-- Feedback Form -->
+            <form action="mailto:eshal.arif@ontariotechu.net" method="post" enctype="text/plain" name="form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <!-- Adding validation rules -->
+                    <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comments" class="form-label">Comments?</label>
+                    <textarea name="comments" class="form-control" rows="5"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="who" class="form-label">What describes your occupation? (optional)</label>
+                    <select name="who" class="form-select">
+                        <option value="Student">Student</option>
+                        <option value="Professor">Professor</option>
+                        <option value="University TA">University TA</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <!-- Creating submit and reset buttons for interactivity -->
+                <button type="submit" class="btn btn-primary">Click here to submit the form</button>
+                <button type="reset" class="btn btn-secondary">Click here to reset the form</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<% include partials/bottom_navigation%> 
+<% include partials/footer%> 

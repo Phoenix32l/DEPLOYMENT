@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Pacifico&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lato&family=Open+Sans&family=Pacifico&family=Roboto:ital,wght@1,100&display=swap');
+
+    body {
+    background-color: rgb(9, 12, 16); 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+
+    .container{
+    width: 400px;
+    height: 750px;
+    }
+
+    .navbar-text{
+    align-items: center;
+    text-align: center;
+    }
+
+    .listitems{
+        color:rgb(9, 12, 16);
+        text-align: left;
+    }
+    
+
+    .welcome-image {
+        border-radius: 50%;
+    }
+    
+
+    .navbar a:hover {
+        color: hsl(0, 92%, 21%); 
+    }
+    
+
+    .projects{
+        color: white;
+        text-align:left;
+    }
+
+    .navbar fixed-bottom navbar-dark bg-dark{
+            background-color: hsl(0, 92%, 21%);
+            color: #f6dfd9;
+    }
+
+
+    .section {
+        background-color: rgb(9, 12, 16);
+        width: 1400px;
+        height: 300px;;
+
+    }
+
+    .rightsside{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 5px;
+            height: 900px;
+            width: 1100x;
+            color: white;
+            background: -moz-linear-gradient(top, rgb(9, 12, 16) 0%, hsl(0, 92%, 21%));
+            background: -webkit-linear-gradient (top, rgb(9, 12, 16) 0%, hsl(0, 92%, 21%)100%);
+            background: -o-linear-gradient(top,  rgb(9, 12, 16)0%, hsl(0, 92%, 21%));
+            background: -o-linear-gradient(top,rgb(9, 12, 16)  0%, hsl(0, 92%, 21%));
+            background: -o-linear-gradient(top, rgb(9, 12, 16) 0%, hsl(0, 92%, 21%));
+            background: linear-gradient(to bottom, rgb(9, 12, 16),hsl(0, 92%, 21%));
+        
+    }
+
+
+    .circleimage{
+        align-items: center;
+        text-align: center;
+    }
+        
+    .boxes {
+        font-family: 'Lato', sans-serif;
+        height: 255px;
+        color: white;
+        text-align: center;
+        background-color: hsl(0, 92%, 21%);
+        width:300px;float: right;
+        margin-bottom: 20px; 
+        margin-right: 90px; 
+        margin-top: 50px;
+        opacity: 100;
+        
+    
+    }
+
+
+    .boxes:hover {
+        color: rgb(9, 12, 16); 
+    }
+
+
+    .port{
+        background-color: rgb(9, 12, 16);
+        color: rgb(250, 247, 247);
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+        width: 100%;
+        height: 1500px;
+        font-size: 20px;
+    }
+        
+        
+
+    .container-head{
+        text-align: center;
+        background-color: rgb(9, 12, 16);
+        color: white;
+        margin: 0;
+        padding: 3%;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+
+    }
+    
+
+    .container-fluid{
+        background-color: rgb(9, 12, 16);
+        
+    }
+
+    .home-page h2, .home-page h3, .learn p{
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 30px;
+    }
+ 
+    .logo{
+        font-family: "Pacifico" , sans-serif;
+    }
+
+    .nav-item{
+        font-family: "Caveat", sans-serif;
+    }
+
+    .bottom-nav a{
+        text-decoration: none;
+    }
